@@ -55,6 +55,22 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GraduationTracker.Entities\GraduationTracker.Entities.csproj">
+      <Project>{63602EB2-74F8-41F8-8AC2-901E96993BDF}</Project>
+      <Name>GraduationTracker.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GraduationTracker.Interfaces\GraduationTracker.Interfaces.csproj">
+      <Project>{55549ED4-1C38-4813-A467-82ADB40DC61D}</Project>
+      <Name>GraduationTracker.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GraduationTracker.Moq\GraduationTracker.Moq.csproj">
+      <Project>{41EF89C6-2B87-426A-90A0-45DEC99F8165}</Project>
+      <Name>GraduationTracker.Moq</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GraduationTracker.Services\GraduationTracker.Services.csproj">
+      <Project>{52629F47-AD09-4CC4-918E-B0CFDF4CFF60}</Project>
+      <Name>GraduationTracker.Services</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GraduationTracker\GraduationTracker.csproj">
       <Project>{3f941a8a-25c9-4a01-83ab-0393c50bb1cf}</Project>
       <Name>GraduationTracker</Name>
